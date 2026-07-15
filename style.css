@@ -1,1 +1,15 @@
-body{font-family:Arial;margin:0}header,footer{background:#2e7d32;color:#fff;padding:16px;text-align:center}.c{padding:20px}.btn{background:#25D366;color:#fff;padding:10px 16px;text-decoration:none}
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
